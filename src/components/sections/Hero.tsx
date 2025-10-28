@@ -26,7 +26,7 @@ const Hero = () => {
             Создаю современные, быстрые и масштабируемые решения с использованием передовых технологий
           </p>
           
-          <div className="flex gap-4 justify-center flex-wrap">
+          <div className="flex gap-4 justify-center flex-wrap px-5">
             <Button size="lg" className="gradient-primary" onClick={() => scrollToSection('portfolio')}>
               <Icon name="Eye" size={20} className="mr-2" />
               Смотреть работы
